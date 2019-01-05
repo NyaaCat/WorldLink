@@ -28,6 +28,7 @@ On first load (config creation), the plugin will scan all loaded worlds and link
 | `/worldlink unlink world2 n:world3_nether` | `worldlink.unlink` | Unlink nether or the end world from a specific overworld. Requires at least `n` or `e` argument |
 
 The plugin uses PaperSpigot API to allow mobs go through nether portals.
+If a world does not have nether or the end world linked, the portal will do nothing.
 
 # License
 
