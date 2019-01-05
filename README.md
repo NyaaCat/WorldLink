@@ -20,6 +20,8 @@ links:
 
 On first load (config creation), the plugin will scan all loaded worlds and link them automatically if the world names match `{world}_nether` and `{world}_the_end`.
 
+Note: One nether world could be linked to only one overworld, the end could be linked to multiple overworlds.
+
 # Commands & Permissions
 
 | Command | Permission Node | Description |
